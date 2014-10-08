@@ -8,9 +8,13 @@ Use this repo to manage my config files
    run `python linkDotFilesBackToHome.py`
 
 3. To install VIM plugins, run `python vim_plugin_install.py`. It would use 
-   [pathogon](https://github.com/tpope/vim-pathogen) for plugin management.
+   [pathogen](https://github.com/tpope/vim-pathogen) for plugin management.
    So if you don't have pathogon installed, it would install for you also.
    To update the install list, change the `vim_plugin_on_github` file.
+
+3b. If you get an error try to install pathogen separately:
+   mkdir -p ~/.vim/autoload ~/.vim/bundle;
+   curl -Sso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 4. For each of the config file that want to manage using git, you can run 
   `python moveDotFileInHomeAndCreateSymoblicLink.py FILE_PATH` 
