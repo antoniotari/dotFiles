@@ -12,11 +12,11 @@ Use this repo to manage my config files
    So if you don't have pathogon installed, it would install for you also.
    To update the install list, change the `vim_plugin_on_github` file.
 
-3b. If you get an error try to install pathogen separately:
-   mkdir -p ~/.vim/autoload ~/.vim/bundle;
+4. If you get an error try to install pathogen separately:<br>
+   mkdir -p ~/.vim/autoload ~/.vim/bundle;<br>
    curl -Sso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
-4. For each of the config file that want to manage using git, you can run 
+5. For each of the config file that want to manage using git, you can run 
   `python moveDotFileInHomeAndCreateSymoblicLink.py FILE_PATH` 
    (if only a simple file name is given, the filepath would be defaulted to 
    the home folder)
