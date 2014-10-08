@@ -1,3 +1,17 @@
+#Changes made to vim editor
+leader key ,<br>
+save        ctrl+z<br>
+quit        leader+q<br>
+qall        leader+Q  <br>                                               
+wq          leader+e   <br>                                                  
+w           leader+w   <br>
+
+create a tab   :tabnew<br>
+left tab       ctrl-u<br>
+right tab      ctrl-o<br>
+sort selected  leader+s
+
+
 # Purpose
 Use this repo to manage my config files
 
